@@ -4,7 +4,7 @@
   "description": "Series Project",
   "main": "index.js",
   "scripts": {
-    "linter": "tslint -c tslint.json 'src/**/*.{ts,tsx}'"
+    "test": "tslint -c tslint.json 'src/**/*.{ts,tsx}'"
   },
   "repository": {
     "type": "git",
@@ -21,14 +21,14 @@
     "@types/react-dom": "^16.0.4",
     "npm": "^5.7.1",
     "react": "^16.2.0",
-    "react-dom": "^16.2.0",
-    "tslint-config-airbnb": "^5.7.0",
-    "tslint-react": "^3.5.1"
+    "react-dom": "^16.2.0"
   },
   "devDependencies": {
     "awesome-typescript-loader": "^4.0.1",
     "source-map-loader": "^0.2.3",
     "tslint": "^5.9.1",
+    "tslint-config-airbnb": "^5.7.0",
+    "tslint-react": "^3.5.1",
     "typescript": "^2.7.2",
     "webpack": "^4.1.1",
     "webpack-cli": "^2.0.11"
